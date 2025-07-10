@@ -1,0 +1,127 @@
+body {
+    font-family: "Roboto", "Raleway", sans-serif;
+    color: #2E2F42;
+    background-color: #ffffff;
+
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;  
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+a:hover, a:focus {
+        color: #404BBF;
+}
+
+.logo {
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.16667;
+            letter-spacing: 0.03em;
+}
+
+span {
+        color:#4D5AE5;
+}
+
+.menu {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+            letter-spacing: 0.02em;
+}
+
+address {
+        font-size: 16px;
+        line-height: 1.5;
+            letter-spacing: 0.02em;
+        color: #434455;
+}
+
+button {
+    cursor: pointer; 
+}
+
+.hero {
+        background-color: #2E2F42;
+}
+
+h1 {
+        font-weight: 700;
+        font-size: 56px;
+            line-height: 1.07143;
+            letter-spacing: 0.02em;
+        text-align: center;
+        color: #FFFFFF;
+}
+
+.order {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+            letter-spacing: 0.04em;
+        align-items: center;
+        color: #FFFFFF;
+}
+
+h3 {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: center;
+}
+
+.feature-list {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+.feature-text {
+    font-size: 16px;
+    line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+.team-section {
+        background: #F4F4FD;
+}
+
+h2 {    
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11111;
+            letter-spacing: 0.02em;
+        text-align: center;
+}
+
+.team-text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;;
+}
+
+footer {
+    background-color: #2e2f42;
+}
+
+.footer-text {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
+}
