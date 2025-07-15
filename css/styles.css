@@ -12,14 +12,6 @@ ol {
 
 a {
     text-decoration: none;  
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-a:hover, a:focus {
-    color: #404BBF;
 }
 
 .logo-web {
@@ -42,11 +34,14 @@ a:hover, a:focus {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    
+}
+
+.menu:hover, .menu:focus {
+color: #404BBF;
 }
 
 .address {
-    font-style: normal
+    font-style: normal;
 }
 
 .contacts {
@@ -55,6 +50,10 @@ a:hover, a:focus {
     letter-spacing: 0.02em;
     color: #434455;
     font-style: normal
+}
+
+.contacts:hover, .contacts:focus {
+    color: #404BBF;
 }
 
 button {
@@ -88,20 +87,13 @@ button {
     background-color: #404BBF;
 }
 
-h3 {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: center;
-}
-
 .feature-list {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: left;
 }
 
 .feature-text {
@@ -113,14 +105,6 @@ h3 {
 
 .team-section {
     background: #F4F4FD;
-}
-
-h2 {    
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
 }
 
 .team-main {
@@ -152,7 +136,8 @@ h2 {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;;
+    color: #434455;
+    text-align: center;
 }
 
 .portfolio-main {
@@ -160,9 +145,8 @@ h2 {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #2e2f42;
-    text-transform: capitalize
+    text-transform: capitalize;
 }
 
 .portfolio-img {
